@@ -5,6 +5,7 @@ int main()
 char s1[100],s2[100],temp[100],temp2[100];
 int i,j;
 scanf("%s%s",s1,s2);
+printf("%s\n",s1);
 if(strlen(s2)>strlen(s1))
 {
 strcpy(temp,s1);
