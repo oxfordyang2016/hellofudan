@@ -1,6 +1,44 @@
 1.you need to understand var function  space
 2.in computeday.c you need to note that get input donot \n!!!!!
 3.the struct of c donot include function
+4.you need to grasp use c++ sort to sort string.
+5.qinghuasort.c  show that how to get string input and int put
+6.c++ can use include<queue> to push all kinds of elements,for example
+
+struct n {
+int a;
+int b;
+
+
+};
+
+queue <N> q;
+N yangming;
+q.psuh(yangming);
+q.pop()//pop
+q.empty()
+N now=q.front();
+
+7.&& || != usual operator;
+8.continue is to out the loop siwthch  to next.but break is to break the loop
+
+9.we take action is
+int a,b,c to get int input
+while(scanf("%d%%d%d",&a,&b,&c)!=EOF);
+
+10.break can break for and while loop;
+
+11.get char input idonot understand p188
+   char a[8][8];
+   while(scanf("%s",a[i])!=0)
+
+
+
+
+
+
+
+
 
 
 

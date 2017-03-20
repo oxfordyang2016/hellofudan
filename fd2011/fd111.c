@@ -2,16 +2,23 @@
 #include<string.h>
 int main()
 {
+//-----------get string input------------
 char s1[100],s2[100],temp[100],temp2[100];
 int i,j;
 scanf("%s%s",s1,s2);
-printf("%s\n",s1);
+printf(s1);//it will print a string
+
+
+
+//-------------string switch-------------
 if(strlen(s2)>strlen(s1))
 {
 strcpy(temp,s1);
 strcpy(s1,s2);
 strcpy(s2,temp);
 }
+
+//------------
 temp[0]=0;//方便后续操作
 for(i=0;i<strlen(s2);i++)
 for(j=strlen(s2);j>i;j--)
